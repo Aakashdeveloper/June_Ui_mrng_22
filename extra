@@ -1,0 +1,90 @@
+https://code.visualstudio.com/ > Install
+https://git-scm.com/downloads > Install (to Intercat with github)
+https://github.com/  > create Account (Where upload the code)
+https://nodejs.org/en/ > Install (Use to Run JavaAcript Code)
+https://github.com/Aakashdeveloper > Follow
+
+///////////Extensions VS Code //////
+> vscode-icons (icons fo file)
+> TabNine (Proivde Suggestion while writting code)
+> Spell Check (Check the spelling)
+> GitHistory
+> Git Lens
+
+HTML/HTML5       >>>> Raw Structure
+CSS/css3         >>>> Designing (look & Feel)
+BootStarp3/4/5   >>>> Responsive (Fit on every screen)
+JavaScript       >>>> Dynamic
+
+
+> DataTypes
+> variable
+> alert console prompt
+> Operations
+> String literals
+> Math
+> String Operations
+> let, const
+> localStorage
+> sessionStorage
+> cookies
+> condition
+> if else
+> ternary Operations
+> Date
+> switch
+> array
+> loops
+> Functions
+> Rest
+> spread
+> Closures
+> Hoisting
+> Es6
+    > maps,filter
+> regex
+> destructuring
+> object 
+> JSON
+> Es6
+    > Transpile
+    > import export
+> package.JSON
+> npm
+> this
+> Es6
+    > classes
+> Prototypes
+> DoM
+> Calc
+> Form validation
+> Event
+> dummyAPi jsonserver 
+> dark/light mode
+> currenyConvertor
+> promis
+> async await
+> screen
+> set interval
+> set timeout
+> debouncing
+> Progress bar
+> Geolocation
+> Dynamic DropDown
+> Call/Apply
+> sets
+> Basic Jquery
+> Weather application
+> ajax
+> DataTables
+> fabonicci
+> factorial
+> palindrome
+> tictactogame
+> github 
+
+///////
+DOCTYPE > document type
+html > main tag of page
+head > Contains all the link (Css, JavaScript)
+body > All the content of the page that is visible to user
