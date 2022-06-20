@@ -88,3 +88,20 @@ DOCTYPE > document type
 html > main tag of page
 head > Contains all the link (Css, JavaScript)
 body > All the content of the page that is visible to user
+
+
+///////
+BlockLevel
+> Always Start from new Line
+> It will cover the whole width of the screen
+> p div section
+
+Inline Element
+> Start in the same line where first ends
+> only cover the required with
+> span a img
+
+
+href = hyper reffernce
+src = source
+rel = relation
