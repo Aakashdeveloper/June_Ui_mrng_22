@@ -142,15 +142,36 @@ Naresh
 Mobile:8919944069
 
 
-JAVA SCRIPT@ 6:30 AM	
-		
-		
-16-06-2022	https://vimeo.com/721713764	J@^@#6:30@M
-		
-17-06-2022	https://vimeo.com/721713923	Ak@$#JS6:30@M
-		
-18-06-2022	NO CLASS	
-		
-20-06-2022	https://vimeo.com/722067963	J@^@#6:30@M
-		
-21-06-2022	https://vimeo.com/722427394	Ak@$#JS6:30@M
+
+Inline
+StyleTag
+styleSheet
+
+Inline > StyleTag >styleSheet
+
+inline
+{
+    color:red,
+    font-size:40px;
+}
+
+styleTag
+{
+    color:orange,
+    text-align:center;
+    font-weight:bold;
+}
+
+stylesheet
+{
+    font-size:30px;
+    border:2px solid red
+}
+
+{
+   color:red;
+   font-size:40px;
+   font-weight:bold;
+   text-align:center;
+   border:2px solid red;
+}
