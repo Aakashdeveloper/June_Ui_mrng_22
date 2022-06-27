@@ -175,3 +175,12 @@ stylesheet
    text-align:center;
    border:2px solid red;
 }
+
+//////
+Tag Name  > h1 , p , div
+className 
+> to target multiple Element with same property
+> .
+Id
+> to target particular element
+> #
