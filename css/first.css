@@ -1,15 +1,21 @@
 h1{
     text-align:center
 }
+#mainContainer{
+    display:inline-block
+}
 .card{
     height:450px;
     background-color:#cb8774;
     width:21%;
-    float:left;
-    margin-left:3%
+    float: left;
+    margin-left:3%;
+    overflow: scroll;
+    color:white
 }
 .bluegray{
-    background-color:#9cb4c0
+    background-color:#9cb4c0;
+    color:black
 }
 #subHeading{
     text-align:left
