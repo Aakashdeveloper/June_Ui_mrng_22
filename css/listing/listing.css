@@ -1,0 +1,87 @@
+body{
+    margin:auto;
+    background-color:#d7b7ca;
+}
+a{
+    text-decoration: none;
+}
+
+@font-face{
+    font-family:anyName;
+    src:url()
+}
+
+header{
+    height:60px;
+    background-color:#3b2632;
+    /*border:5px solid red;*/
+}
+#brand{
+    font-size:30px;
+    color:white;
+    margin-left:1%;
+    margin-top:1%;
+    float:left;
+}
+
+#social{
+    float:right;
+    margin-right:1%
+}
+.socialLogo{
+    height:50px;
+}
+/*Main Content*/
+#main{
+    width:80%;
+    margin-left: 10%;
+    margin-top:2%;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+#filter{
+    height:600px;
+    width:20%;
+    border: 2px solid rgb(8, 0, 255);
+    float: left;
+}
+
+#list{
+    width:75%;
+    /* border: 2px solid white; */
+    float: left;
+    margin-left: 4%;
+    margin-top:-2%;
+}
+
+.tile{
+    height:300px;
+    width:100%;
+    border: 2px solid red;
+    margin-top:2%;
+}
+
+/* footer Css*/
+footer{
+    height:80px;
+    background-color:#3b2632;
+    color:white;
+    
+}
+
+.footDiv{
+    float:left;
+    height:50px;
+    width:32%;
+    text-align:center;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}

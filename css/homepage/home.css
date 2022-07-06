@@ -1,9 +1,16 @@
 body{
     margin:auto;
+    background-color:#d7b7ca;
 }
 a{
     text-decoration: none;
 }
+
+@font-face{
+    font-family:anyName;
+    src:url()
+}
+
 header{
     height:60px;
     background-color:#3b2632;
@@ -16,6 +23,7 @@ header{
     margin-top:1%;
     float:left;
 }
+
 #social{
     float:right;
     margin-right:1%
@@ -85,6 +93,7 @@ select{
     margin-top:2%;
     margin-bottom:2%;
     /* border:5px groove lightcoral; */
+   
 }
 
 #quickHeading{
@@ -110,7 +119,7 @@ select{
     margin-left: 2%;
     margin-top: 3%;
     float:left;
-    box-shadow: 10px 20px 10px #896077;;
+    box-shadow: 10px 20px 10px #3b2632;
 }
 
 .tileComponent1{
@@ -149,5 +158,22 @@ select{
 /* footer Css*/
 footer{
     height:80px;
-    border:5px dashed hotpink;
+    background-color:#3b2632;
+    color:white
+}
+
+.footDiv{
+    float:left;
+    height:50px;
+    width:32%;
+    text-align:center;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
 }
