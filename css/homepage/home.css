@@ -48,6 +48,30 @@ header{
     margin-top:1%;
     position:absolute;
     font-size: 90px;
+    animation:revolve 10s infinite;
+}
+
+@keyframes revolve{
+    0%{
+        transform:rotate(30deg);
+        margin-left: 2%;
+    }
+    25%{
+        transform:rotate(90deg);
+        margin-left: 20%;
+    }
+    50%{
+        transform:rotate(180deg);
+        margin-left: 40%;
+    }
+    75%{
+        transform:rotate(270deg);
+        margin-left: 80%;
+    }
+    100%{
+        transform:rotate(360deg);
+        margin-left: 40%;
+    }
 }
 
 #logo > span {
@@ -87,7 +111,7 @@ select{
 
 /* Quicksearch Css*/
 #quicksearch{
-    height:600px;
+    display:inline-block;
     width:80%;
     margin-left: 10%;
     margin-top:2%;
@@ -105,6 +129,12 @@ select{
     margin-left: 2%;
 }
 
+#quickHeading:hover{
+    font-size: 35px;
+    color:#aefdb8;
+}
+
+
 #quickSubHeading{
     color:gray;
     font-size: 20px;
@@ -120,6 +150,23 @@ select{
     margin-top: 3%;
     float:left;
     box-shadow: 10px 20px 10px #3b2632;
+    animation:dance 5s infinite
+}
+
+@keyframes dance {
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    40% {transform:scale(1.1)}
+    50% {transform:rotate(5deg)}
+    75% {transform:rotate(0deg)}
+   100% {transform:rotate(-5deg)}
+}
+
+.tileContainer:hover{
+    transform:scale(1.1)
+    /* transform:skewX(200deg) */
+    /* transform:rotate(180deg) */
+    /* transform:translate(100px, 100px) */
 }
 
 .tileComponent1{
@@ -176,4 +223,76 @@ ul{
 
 .noborder{
     border:none
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:skyblue;
+    }
+}
+
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(179, 238, 203);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(236, 136, 133);
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(239, 241, 191);
+    }
+    .tileContainer{
+        width:45%;
+    }
+    #heading {
+        margin-left: 12%;
+        margin-top: 19%;
+    }
+    
+    #dropdown {
+        width: 77%;
+        margin-left: 12%;
+        margin-top: 30%;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(219, 189, 246);
+    }
+    
+
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color:rgb(240, 201, 182);
+    }
+    .tileContainer{
+        width:100%;
+    }
+    #heading {
+        font-size: 44px;
+        margin-left: 0%;
+        margin-top: 32%;
+    }
+    #dropdown {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 46%;
+    }
+    select {
+        width: 100%;
+    }
+    #restaurants {
+        width: 100%;
+    }
 }
