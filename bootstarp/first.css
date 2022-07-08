@@ -1,0 +1,15 @@
+.btn-purple{
+    background-color: purple !important;
+}
+.del-icon{
+    font-size:30px;
+    color:red
+}
+.edit-icon{
+    font-size:30px;
+    color:green
+}
+.fb{
+    color:rgb(116, 116, 241);
+    font-size:30px;
+}
