@@ -198,4 +198,8 @@ https://imgbb.com/
 position: absolute;
 position: relative;
 
-
+//Bootstrap 3
+lg > 1200px
+md > 992px
+sm > 768px
+xs < 768px
