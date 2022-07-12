@@ -26,3 +26,8 @@
     background-color: rgb(170, 241, 230);
     height:200px
 }
+
+.item>img{
+    width:100%;
+    height:400px !important
+}
