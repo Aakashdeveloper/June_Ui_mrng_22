@@ -22,10 +22,10 @@ JavaScript       >>>> Dynamic
 > alert console prompt
 > Operations
 > String literals
-//////////////////////////
 > Math
-> String Operations
 > let, const
+//////////////////////////
+> String Operations
 > localStorage
 > sessionStorage
 > cookies
@@ -35,6 +35,7 @@ JavaScript       >>>> Dynamic
 > Date
 > switch
 > array
+
 > loops
 > Functions
 > Rest
