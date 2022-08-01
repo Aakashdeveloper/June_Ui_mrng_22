@@ -32,18 +32,18 @@ JavaScript       >>>> Dynamic
 > if else
 > ternary Operations
 > Date
-//////////////////////////
 > switch
+//////////////////////////
 > array
-
 > loops
 > Functions
 > Rest
 > spread
-> Closures
-> Hoisting
 > Es6
     > maps,filter
+
+> Closures
+> Hoisting
 > regex
 > destructuring
 > object 
