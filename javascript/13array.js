@@ -97,3 +97,59 @@ city.splice(3,1,'Indore','Dublin')
 ['London']
 city
 (9) ['Helsinki', 'Dubai', 'Mumbai', 'Indore', 'Dublin', 'Hongkong', 'Keev', 'Amsterdam', 'Venice']
+
+var city = ['Helsinki', 'Dubai', 'Delhi', 'Mumbai', 'London']
+        
+city.indexOf('Mumbai')
+3
+city.indexOf('Helsinki')
+0
+city.indexOf('London')
+4
+city.indexOf('Venice')
+-1
+city.indexOf('Pune')
+-1
+
+var a = ['a','b','c',1]
+var b = [1,2,3,'d']
+a+b
+'a,b,c,11,2,3,d'
+a.concat(b)
+(8) ['a', 'b', 'c', 1, 1, 2, 3, 'd']
+
+
+var a = "Hiii"
+var b = ["Hiii"]
+undefined
+typeof(a)
+'string'
+typeof(b)
+'object'
+Array.isArray(a)
+false
+Array.isArray(b)
+true
+
+var city = ['Helsinki', 'Dubai',['Red','Yellow','Green',['Audi','BMW','Merc'],'Orange'], 'Delhi', 'Mumbai', 'London']
+city[1]
+'Dubai'
+city[2]
+(5) ['Red', 'Yellow', 'Green', Array(3), 'Orange']
+city[2][0]
+'Red'
+city[2][1]
+'Yellow'
+city[2][3]
+(3) ['Audi', 'BMW', 'Merc']
+city[2][3][0]
+'Audi'
+
+var a =[ [1, 1 ,1], [4,6,7], [6,7,4] ]
+
+var city = ['Helsinki', 'Dubai',['Red','Yellow','Green',['Audi','BMW','Merc'],'Orange'], 'Delhi', 'Mumbai', 'London']
+
+city.flat()
+(10) ['Helsinki', 'Dubai', 'Red', 'Yellow', 'Green', Array(3), 'Orange', 'Delhi', 'Mumbai', 'London']
+city.flat(2)
+(12) ['Helsinki', 'Dubai', 'Red', 'Yellow', 'Green', 'Audi', 'BMW', 'Merc', 'Orange', 'Delhi', 'Mumbai', 'London']
