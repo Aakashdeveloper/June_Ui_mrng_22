@@ -33,3 +33,39 @@ movie['ind']
 'Hollywood'
 movie['rating']
 4.5
+
+var movies = [
+    {
+        "mname":"Avengers",
+        "rating":4.5,
+        "ind":"Hollywood"
+    },
+    {
+        "mname":"Jab We Met",
+        "rating":4.8,
+        "ind":"Bollywood"
+    }
+]
+
+movies[1].mname
+'Jab We Met'
+
+let movie = {
+    mname:"Avengers",
+    rating:4.5,
+    ind:"Hollywood"
+}
+
+for(key in movie){   
+    console.log(key)
+}
+mname
+rating
+ind
+
+for(key in movie){   
+    console.log(movie[key])
+}
+Avengers
+4.5
+Hollywood

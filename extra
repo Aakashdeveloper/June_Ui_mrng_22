@@ -44,21 +44,21 @@ JavaScript       >>>> Dynamic
 > Closures
 > Hoisting
 > destructuring
-//////////////////////////
-> object 
 > JSON
+> object 
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
 > this
+//////////////////////////
 > Es6
     > classes
 > Prototypes
-//////////////////
 > DoM
 > Calc
+
 > Form validation
 > Event
 > dummyAPi jsonserver 
@@ -222,9 +222,20 @@ xl > 1200px
 xxl > 1400px
 
 
-HTML
-CSS
-Bootstrap
-JavaScript
-NodeJs+Express+Mongodb
-React
+/////package.json////
+> Entry point to the app
+> Contains MetaData(name,version,description)
+> script(start,build)
+> all the package we are using in app
+
+///////Step to generate package.json/////
+**NodeJs must be installed in laptop
+> go inside the folder using cmd
+> npm init -y
+
+///////Step to install package/////
+**NodeJs must be installed in laptop
+> go inside the folder using cmd
+> npm i packagename
+
+npm i @babel/core @babel/preset-env @babel/register

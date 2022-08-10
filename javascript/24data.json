@@ -1,0 +1,29 @@
+[
+    {
+        "mname":"Avengers",
+        "rating":4.5,
+        "ind":"Hollywood",
+        "shows":[
+            {
+                "name":"Abc",
+                "city":"Delhi"
+            },
+            {
+                "name":"Xyz",
+                "city":"London"
+            }
+        ]
+    },
+    {
+        "mname":"Jab We Met",
+        "rating":4.8,
+        "ind":"Bollywood",
+        "earning":464645
+    },
+    {
+        "mname":"Martian",
+        "rating":4.4,
+        "ind":"Hollywood"
+    }
+
+]
