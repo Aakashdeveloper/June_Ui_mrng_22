@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="forms.js"></script>
+        <link href="forms.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <hr/>
+        <div class="container">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    Employee Forms
+                </div>
+                <div class="panel-body">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <label for="eid">EmployeeId</label>
+                            <input class="form-control" name="eid" id="eid" readonly />
+                        </div>
+                        <div class="form-group" id="fdiv">
+                            <label for="fname" class="control-label">FirstName</label>
+                            <input class="form-control" name="firstname" id="fname" 
+                            value="Amit" onblur="validateFname()"/>
+                            <p id="fout"></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="mail" class="control-label">Email</label>
+                                    <input class="form-control" name="mail" id="mail" type="email"
+                                    value="a@a.com" oninput="validateEmail()"/>
+                                    <p id="eout"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="pass" class="control-label">Password</label>
+                                    <input class="form-control" name="pwd" id="pass"
+                                    type="password" oninput="validatePassword()"/>
+                                    <p id="pout"></p>
+                                    <div id="ppout"></div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="form-group">
+                            <label for="city">Select City</label>
+                            <select class="form-control" id="city" name="city">
+                                <option>Delhi</option>
+                                <option>London</option>
+                                <option>Amsterdam</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-success" type="submit">
+                            Submit
+                        </button>
+                        <button class="btn btn-danger" type="reset">
+                            Reset
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            window.onload = getId()
+        </script>
+    </body>
+</html>
