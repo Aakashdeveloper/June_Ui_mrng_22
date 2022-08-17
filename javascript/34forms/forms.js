@@ -45,3 +45,27 @@ function validatePassword(){
         document.getElementById('ppout').style.backgroundColor = "green"
     }
 }
+
+function validateCPassword(){
+    let pwd = document.getElementById('pass').value;
+    let cpwd = document.getElementById('cpass').value;
+    if(pwd !== cpwd){
+        document.getElementById('cpout').innerText = "Passwords does not match"
+    }else{
+        document.getElementById('cpout').innerText = ""
+    }
+}
+
+function showPassword(){
+    let pwd = document.getElementById('pass');
+    if(pwd.type == 'password'){
+        pwd.type = 'text'
+    }else{
+        pwd.type = 'password'
+    }
+}
+
+const getCity = () => {
+    let city = document.getElementById('city').value;
+    document.getElementById('lout').innerText = `Your City is ${city}`
+}

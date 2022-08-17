@@ -57,26 +57,23 @@ JavaScript       >>>> Dynamic
 > Prototypes
 > DoM
 > Calc
-//////////////////////////
 > Form validation
 > Event
 > dummyAPi jsonserver 
-
 > dark/light mode
-> currenyConvertor
-> promis
-> async await
-
 > screen
 > set interval
 > set timeout
+//////////////////////////
+> currenyConvertor
+> promis
+> async await
 > debouncing
 > Progress bar
 
 > Geolocation
 > Dynamic DropDown
 > Call/Apply
-
 
 > sets
 > Basic Jquery
@@ -245,3 +242,6 @@ xxl > 1400px
 > npm i packagename
 
 npm i @babel/core @babel/preset-env @babel/register
+
+////////////
+npx json-server --watch data.json --port 7600

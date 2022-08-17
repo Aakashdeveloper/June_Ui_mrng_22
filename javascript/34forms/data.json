@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "eid": "EPW50414",
+      "firstname": "Nikita",
+      "mail": "nikki@a.com",
+      "pwd": "123456789",
+      "cpwd": "123456789",
+      "city": "London",
+      "id": 1
+    },
+    {
+      "eid": "EPW1310",
+      "firstname": "Rahul",
+      "mail": "rahuk@a.com",
+      "pwd": "123456789",
+      "cpwd": "123456789",
+      "city": "Amsterdam",
+      "id": 2
+    }
+  ]
+}

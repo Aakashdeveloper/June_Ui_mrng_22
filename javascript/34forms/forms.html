@@ -14,7 +14,7 @@
                     Employee Forms
                 </div>
                 <div class="panel-body">
-                    <form action="" method="">
+                    <form action="http://localhost:7600/employee" method="POST">
                         <div class="form-group">
                             <label for="eid">EmployeeId</label>
                             <input class="form-control" name="eid" id="eid" readonly />
@@ -39,15 +39,25 @@
                                     <label for="pass" class="control-label">Password</label>
                                     <input class="form-control" name="pwd" id="pass"
                                     type="password" oninput="validatePassword()"/>
+                                    <span class="glyphicon glyphicon-eye-open" onClick="showPassword()"></span>
                                     <p id="pout"></p>
                                     <div id="ppout"></div>
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="cpass" class="control-label">Confirm Password</label>
+                                    <input class="form-control" name="cpwd" id="cpass"
+                                    type="password" oninput="validateCPassword()"/>
+                                    <p id="cpout"></p>
+                                </div>
+                            </div>
                         </div>
-                            
+                        <span id="lout"></span>
                         <div class="form-group">
                             <label for="city">Select City</label>
-                            <select class="form-control" id="city" name="city">
+                            <select class="form-control" id="city" name="city"
+                            onchange="getCity()">
                                 <option>Delhi</option>
                                 <option>London</option>
                                 <option>Amsterdam</option>
